@@ -1,0 +1,52 @@
+.tableContainer{
+    background-color: rgb(156, 156, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 2rem;
+}
+.Addnew{
+    background-color:green;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: large;
+ cursor: pointer;
+
+}
+table{
+    background-color: white;
+    padding:2rem;
+    width: 70%;
+   
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+tr{
+    padding: 2rem;
+
+
+    margin: 0 1rem;
+    padding: 2rem;
+}
+.editbtn{
+    background-color: green;
+    margin-right: 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+.deletebtn{
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
